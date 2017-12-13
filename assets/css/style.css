@@ -1,0 +1,27 @@
+/* GifTastic
+ Written by: Steve Harold
+ Created: 12/11/2017
+ Last Updated: 12/12/2017 */
+
+.col-md-4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 350px;
+	flex-direction: column;
+	border: 1px solid black;
+}
+
+.col-md-4 img {
+	width: 90%;
+	max-height: 90%;
+}
+
+.button {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#form {
+	margin: 10px;
+}

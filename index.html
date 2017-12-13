@@ -1,3 +1,8 @@
+<!-- GifTastic
+ Written by: Steve Harold
+ Created: 12/11/2017
+ Last Updated: 12/12/2017 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,23 +25,71 @@
 </head>
 
 <body>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">GifTastic</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                	<li>
+                		<a href="#">Home</a>
+                	</li>
+                    <li>
+                        <a href="#">Reaction GIFs</a>
+                    </li>
+                    <li>
+                        <a href="#">Actor GIFs</a>
+                    </li>
+                    <li>
+                        <a href="#">Animal GIFs</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
     <div class="container">
         <div class="row">
-        	<div class="col-lg-12 text-center">
+        	<div id="form" class="col-lg-12 text-center">
         		<form>
     				<span id="add-item">Add a new button: <input id="addPhrase" type="text" ><input id="addButton" value="Add Item" type="submit"></span>
   				</form>
         	</div>
-            <div id="buttons" class="col-lg-12 text-center">
-                <button id="james-bond" class="button" data-name="james+bond">James Bond</button>
-                <button id="terminator" class="button" data-name="terminator">terminator</button>
-                <button id="rambo" class="button" data-name="rambo">rambo</button>
-                <button id="sad" class="button" data-name="sad">sad</button>
-                <button id="mask" class="button" data-name="mask">mask</button>
-                <button id="james-bond" class="button" data-name="james+bond">James Bond</button>
+            <div id="buttons" class="col-lg-12 text-left">
+                <button id="really" class="button" data-name="really">Really?</button>
+                <button id="no" class="button" data-name="no">No</button>
+                <button id="yes" class="button" data-name="yes">Yes</button>
+                <button id="sad" class="button" data-name="sad">Sad</button>
+                <button id="happy" class="button" data-name="happy">Happy</button>
+                <button id="angry" class="button" data-name="angry">Angry</button>
+                <button id="frustrated" class="button" data-name="frustrated">Frustrated</button>
+                <button id="awww" class="button" data-name="angry">Awww</button>
+                <button id="dance" class="button" data-name="dance">Dance</button>
+                <button id="eww" class="button" data-name="eww">Eww</button>
+                <button id="eye-roll" class="button" data-name="eye+roll">Eye Roll</button>
+                <button id="thumbs-up" class="button" data-name="thumbs+up">Thumbs Up</button>
+                <button id="thumbs-down" class="button" data-name="thumbs+down">Thumbs Down</button>
+                <button id="shrug" class="button" data-name="shrug">Shrug</button>
+                <button id="popcorn" class="button" data-name="popcorn">Popcorn</button>
+                <button id="high-five" class="button" data-name="high+five">High Five</button>
+                <button id="mic-drop" class="button" data-name="mic+drop">Mic Drop</button>
+                <button id="wink" class="button" data-name="wink">Wink</button>
+                <button id="slow-clap" class="button" data-name="slow+clap">Slow Clap</button>
             </div>
         </div>
-		<div class="col-lg-12 text-center" id="images">
+        <div class="row">
+			<div class="col-md-12 text-center" id="images">
+			</div>
 		</div>
     </div>
     <!-- jQuery Version 1.11.1 -->
