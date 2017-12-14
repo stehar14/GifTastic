@@ -3,13 +3,51 @@
  Created: 12/11/2017
  Last Updated: 12/12/2017 */
 
+* {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	color: #BBBBBB;
+}
+
+ .navbar-brand,
+ #about span,
+ #about h3 {
+ 	font-family: 'Lobster', cursive;
+ }
+
+ #about h3 {
+ 	font-size: 24px;
+ }
+
+.navbar-header .navbar-brand,
+ #logo {
+ 	padding: 10px 20px;
+ 	font-size: 40px;
+ 	color: black;
+ 	background-color: #00FFFF;
+ }
+
+.navbar-nav li:hover {
+	background-color: #00FFFF;
+	color: black;
+}
+
+.active {
+	color: white;
+	border-bottom: solid 4px #00FFFF;
+}
+
+#addPhrase {
+	margin-right: 10px;
+}
+
 .col-md-4 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 350px;
 	flex-direction: column;
-	border: 1px solid black;
+	
 }
 
 .col-md-4 img {
@@ -17,11 +55,32 @@
 	max-height: 90%;
 }
 
-.button {
-	margin-right: 5px;
-	margin-bottom: 5px;
+#buttons {
+	margin-top: 10px;
 }
 
+.button {
+	margin-right: 5px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+  	box-shadow: 0 4px #00FFFF;	
+  	padding: 5px 15px;
+  	outline: none;
+  	color: black;
+
+}
+
+.button:hover {
+	background-color: #00FFFF;
+	box-shadow: 0 4px #000000;
+}
+
+.button:active {
+	box-shadow: 0 1px #00FFFF;
+  	transform: translateY(3px);
+}
+
+
 #form {
-	margin: 10px;
+	margin-bottom: 10px;
 }

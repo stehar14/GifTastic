@@ -19,7 +19,7 @@ $("#buttons").on("click", ".button", function() {
   var person = $(this).attr("data-name");
   //set variable to giphy api with data-person search
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    person + "&api_key=dc6zaTOxFJmzC&limit=10";
+    person + "&rating=r&api_key=dc6zaTOxFJmzC&limit=10";
   //call ajax get method to access giphy api object
   $.ajax({
       url: queryURL,
